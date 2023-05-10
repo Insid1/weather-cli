@@ -2,15 +2,21 @@
   "name": "wheater-cli",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
-  "bin": "index.js",
+  "main": "weather.js",
+  "bin": {
+    "weather": "weather.js"
+  },
+  "type": "module",
   "engines": {
     "node": ">18"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": ["cli", "weather"],
+  "keywords": [
+    "cli",
+    "weather"
+  ],
   "author": "Oleg Volobuev",
   "license": "ISC",
   "homepage": "",
@@ -19,5 +25,10 @@
   },
   "bugs": {
     "email": "insid1@mail.ru"
+  },
+  "dependencies": {
+    "axios": "^1.4.0",
+    "chalk": "^5.2.0",
+    "dedent": "^0.7.0"
   }
 }
