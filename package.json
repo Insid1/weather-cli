@@ -1,5 +1,5 @@
 {
-  "name": "wheater-cli",
+  "name": "wheater-cli-insid1",
   "version": "1.0.0",
   "description": "",
   "main": "weather.js",
@@ -8,7 +8,7 @@
   },
   "type": "module",
   "engines": {
-    "node": ">18"
+    "node": ">=18"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -29,6 +29,7 @@
   "dependencies": {
     "axios": "^1.4.0",
     "chalk": "^5.2.0",
-    "dedent": "^0.7.0"
+    "dedent": "^0.7.0",
+    "dotenv": "^16.0.3"
   }
 }
